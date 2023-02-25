@@ -22,9 +22,6 @@ jobs:
       - name: Build npm package
         run: yarn && yarn build
 
-      - name: Versioning npm package
-        run: yarn patch
-
       - name: Publish npm package
         run: yarn publish
         env:
