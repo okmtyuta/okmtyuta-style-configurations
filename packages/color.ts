@@ -1,6 +1,6 @@
 import { pallet } from "./pallet";
 
-const colors = {
+export const color = {
   themeColor: pallet.suo,
   charColor: pallet.yokan,
   lightCharColor: pallet.sumi,
@@ -17,5 +17,3 @@ const colors = {
     variable: pallet.moegi,
   },
 };
-
-export default colors;

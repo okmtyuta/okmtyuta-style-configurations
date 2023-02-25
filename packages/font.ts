@@ -53,14 +53,14 @@ const overline = {
   mobile: 10,
 };
 
-export const fontFamilies = {
+export const fontFamily = {
   sansSerifEn: "'Noto Sans', sans-serif",
   sansSerifJa: "'Noto Sans JP', sans-serif",
   code: "'Inconsolata', monospace",
   anton: "'Anton', sans-serif",
 };
 
-export const fontSizes = {
+export const fontSize = {
   h1,
   h2,
   h3,
@@ -74,17 +74,4 @@ export const fontSizes = {
   overline,
 };
 
-export type fontSizeTypes =
-  | "h1"
-  | "h2"
-  | "h3"
-  | "h4"
-  | "h5"
-  | "h6"
-  | "body"
-  | "subBody"
-  | "button"
-  | "caption"
-  | "overline";
-
-
+export type FontSize = keyof typeof fontSize;

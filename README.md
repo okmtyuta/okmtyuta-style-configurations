@@ -1,3 +1,6 @@
+## What is this?
+Universal configuration file for styling of okmtyuta's web application.
+
 ### NORMALIZER
 
 ```css

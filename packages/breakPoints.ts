@@ -4,11 +4,9 @@ const tabMin = 600;
 const tabMax = 1024;
 const spMax = 599;
 
-const breakPoints = {
+export const breakPoint = {
   pcMin,
   tabMin,
   tabMax,
   spMax,
 };
-
-export default breakPoints;
