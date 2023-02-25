@@ -21,7 +21,7 @@ jobs:
           scope: "@<OWNER>"
 
       - name: Build npm package
-        run: npm ci && npm run build
+        run: yarn && yarn build
 
       - name: Publish npm package
         run: npm publish
