@@ -1,5 +1,3 @@
-import breakPoints from "./breakPoints";
-
 const h1 = {
   desktop: 42,
   mobile: 32,
@@ -62,7 +60,7 @@ export const fontFamilies = {
   anton: "'Anton', sans-serif",
 };
 
-const fontSizes = {
+export const fontSizes = {
   h1,
   h2,
   h3,
@@ -88,3 +86,5 @@ export type fontSizeTypes =
   | "button"
   | "caption"
   | "overline";
+
+
