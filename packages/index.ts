@@ -1,4 +1,5 @@
 export { breakPoint } from "./breakPoints";
-export { fontSize, FontSize, fontFamily } from "./font";
+export { fontSize, fontFamily } from "./font";
 export { pallet } from "./pallet";
 export { color } from "./color";
+export type { FontSize } from "./types/FontSize";

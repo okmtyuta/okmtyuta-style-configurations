@@ -1,16 +1,20 @@
 {
-  "name": "okmtyuta-style-configurations",
-  "version": "1.0.0",
+  "name": "@okmtyuta/style-configurations",
+  "version": "0.0.3",
   "description": "Universal configuration file for styling of okmtyuta's web application.",
-  "main": "index.js",
+  "main": "packages/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/okmtyuta/okmtyuta-style-configurations.git"
+    "url": "git+https://github.com/okmtyuta/@okmtyuta/style-configurations.git"
   },
-  "author": "",
+  "author": "okmtyuta",
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/okmtyuta/okmtyuta-style-configurations/issues"

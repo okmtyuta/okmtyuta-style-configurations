@@ -73,5 +73,3 @@ export const fontSize = {
   caption,
   overline,
 };
-
-export type FontSize = keyof typeof fontSize;
