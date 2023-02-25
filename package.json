@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "Universal configuration file for styling of okmtyuta's web application.",
   "main": "dist/index.js",
+  "types": "dist/index.d.js",
   "scripts": {
     "build": "tsc"
   },
@@ -20,12 +21,10 @@
     "url": "https://github.com/okmtyuta/okmtyuta-style-configurations/issues"
   },
   "homepage": "https://github.com/okmtyuta/okmtyuta-style-configurations#readme",
-  "dependencies": {
-    "eslint": "^8.34.0",
-    "typescript": "^4.9.5"
-  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.53.0",
-    "@typescript-eslint/parser": "^5.53.0"
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "^8.34.0",
+    "typescript": "^4.9.5"
   }
 }
