@@ -1,6 +1,6 @@
 {
   "name": "@okmtyuta/style-configurations",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Universal configuration file for styling of okmtyuta's web application.",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
