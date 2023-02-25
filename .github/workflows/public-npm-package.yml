@@ -20,6 +20,7 @@ jobs:
           node-version: "16"
           registry-url: "https://npm.pkg.github.com/okmtyuta"
           scope: "@okmtyuta"
+          always-auth: true
 
       - name: Build npm package
         run: yarn && yarn build
